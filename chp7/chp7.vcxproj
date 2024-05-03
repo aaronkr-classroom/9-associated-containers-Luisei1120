@@ -130,7 +130,12 @@
     <ClCompile Include="chp3ex3-3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="grammar.cpp" />
+    <ClCompile Include="factorial.cpp" />
+    <ClCompile Include="fibonacci.cpp" />
+    <ClCompile Include="grammar.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="revStr.cpp" />
     <ClCompile Include="split.cpp" />
     <ClCompile Include="wordcount.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>

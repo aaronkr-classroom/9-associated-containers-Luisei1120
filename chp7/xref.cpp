@@ -34,6 +34,13 @@ map<string, vector<int> > xref(
 	return ret;
 }
 
+/*
+	연습 문제 :xref.cpp에서
+	7-7, 7-8 추가
+	그리고 한 줄에 단어가 두 번 이상 나타나면 
+	줄 번호를 여러 번 출력하지 않고 한 번만 출려하세요
+*/
+
 int main() {
 	// 기본 인수인 split 함수를 사용하여 xref 함수를 호출
 	map<string, vector<int> > ret = xref(cin);
